@@ -12,7 +12,7 @@ public class App {
                 System.out.println("Advertencia: El equipo está llegando al limite");
                 continue;
             }
-                System.out.println("Temperaturas registrada: "+ temperatura + "°C. El equipo estáen condiciones perfectas");
+                System.out.println("Temperaturas registrada: "+ temperatura + "°C. El equipo está sen condiciones perfectas");
             
     }
         sc.close();
