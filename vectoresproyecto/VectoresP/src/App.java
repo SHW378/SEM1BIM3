@@ -16,9 +16,9 @@ public class App {
         if (numeros[i] == Buscar) {
             System.out.println("El valor guardado esta en la posicion: " + i );
         }           
-     if (numeros[1] != Buscar) {
-            System.out.println("No se encontro el valor");
-        }
+    }
+    if (numeros[1] != Buscar) {
+        System.out.println("No se encontro el valor");
     }
         sc.close();
 }}
