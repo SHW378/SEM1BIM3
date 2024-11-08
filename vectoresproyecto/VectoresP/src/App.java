@@ -15,13 +15,12 @@ public class App {
     boolean encontrado = false;
     for (int i = 0; i < numeros.length; i++) {
         if (numeros[i] == Buscar) {
+            System.out.println("Valor encontrado en la posicion: "+ i);
             encontrado = true;
-            System.out.println("Encontrado en la posicion: "+ i);
-        }           
+        }
     }
     if (!encontrado) {
-        System.out.println("No se encontró el valor en ninguna posicion ");
+        System.out.println("No se encontro el valor en ninguna posicion ");
     }
-    encontrado = false;
         sc.close();
 }}
