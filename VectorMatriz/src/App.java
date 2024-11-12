@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
-        int filas = 0;
-        int cols = 0;
+        int filas = 2;
+        int cols = 1;
         int[][] matriz = new int[filas][cols];
 
         //Almacenar valores en la matriz
