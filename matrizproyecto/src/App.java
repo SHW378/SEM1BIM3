@@ -27,7 +27,7 @@ public class App {
         System.out.println("\n********* MATRIZ ORIGINAL **********");
         for (int f = 0; f < filas; f++) {
             for (int c = 0; c < cols; c++) {
-                System.out.println(MAT[f][c] + " ");
+                System.out.print(MAT[f][c] + " ");
             }
             System.out.println();
         }
@@ -35,7 +35,7 @@ public class App {
         System.out.println("\n********* MATRIZ TRANSPUESTA **********");
         for (int f = 0; f < cols; f++) {
             for (int c = 0; c < filas; c++) {
-                System.out.println(TMAT[c][f] + " ");
+                System.out.print(TMAT[c][f] + " ");
             }
             System.out.println();
         }
