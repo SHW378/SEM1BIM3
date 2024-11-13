@@ -15,6 +15,7 @@ public class App {
                 MAT[f][c] = sc.nextInt();
             }
         }
+
         System.out.println();// salto de linea
 
         int TMAT[][] = new int[filas][cols];
