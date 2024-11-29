@@ -18,9 +18,9 @@ public class App {
                             limiteExcedido = false;
                             frutas[i] = frutaAgregar;
                             cantidades[i] = cantidad;
-                            System.out.println("La fruta se agrego con exito!");
                         }
                     }
+                    System.out.println("La fruta se agrego con exito!");
                     if (limiteExcedido) {
                         System.out.println("El limite de frutas se ha alcanzado!");
                     }
