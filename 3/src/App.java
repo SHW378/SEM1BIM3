@@ -8,7 +8,7 @@ public class App {
         while (!procesoTerminado) {
             var decision = mostrarMenu(scanner);
             switch (decision) {
-                case '1':
+                case 1:
                     var frutaAgregar = agregarProducto(scanner);
                     var cantidad = agregarCantidad(scanner);
                     boolean limiteExcedido = true;
@@ -18,9 +18,6 @@ public class App {
                             frutas[i] = frutaAgregar;
                             cantidades[i] = cantidad;
                             System.out.println("La fruta se agrego con exito!");
-                            break;
-                        } else {
-                            continue;
                         }
                     }
                     if (limiteExcedido) {
