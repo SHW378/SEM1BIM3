@@ -9,6 +9,7 @@ public class App {
             var decision = mostrarMenu(scanner);
             switch (decision) {
                 case 1:
+                try{
                     var frutaAgregar = agregarProducto(scanner);
                     var cantidad = agregarCantidad(scanner);
                     boolean limiteExcedido = true;
@@ -23,6 +24,9 @@ public class App {
                     if (limiteExcedido) {
                         System.out.println("El limite de frutas se ha alcanzado!");
                     }
+                } catch (Exception e) {
+                    System.out.println();
+                }
                     break;
                 case 2:
                     try {
